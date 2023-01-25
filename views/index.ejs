@@ -1,0 +1,31 @@
+<%- include('header'); -%>
+
+<div class="title">
+    <h2>ONLINE HORSE RACING!</h2>
+</div>
+
+
+<div class="Parent">
+
+    <% let horseID = 0%>
+    <% let horse%>
+
+    <% for(i=0; i<5; i++){ %>
+
+        <%horse = horseNames[i]%>
+        <p><%= horse %></p>
+
+        <% let counter = 0%>
+        <% for(r=0; r<16; r++){ %>  
+            <div class="<%="horse" + horse + "box" + counter%> box"></div>
+            <%counter++%>
+        <% }; %>
+        <%horse++%>
+    <% }; %>
+    
+ 
+</div>
+
+<script type="text/javascript" src="./public/app.js"></script>
+
+<%- include ('footer'); -%>

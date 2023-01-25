@@ -1,0 +1,37 @@
+body{
+
+    background-color: rgb(193, 218, 253);
+
+}
+
+.Parent{
+
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    width: 1200px;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+.title{
+
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.box{
+
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.horse p{
+
+    display: inline-block;
+
+}
