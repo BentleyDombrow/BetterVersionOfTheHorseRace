@@ -4,7 +4,7 @@ const ejs = require('ejs');
 
 const app = express();
 
-const horses = ['geddy', 'neil', 'alex', 'stang', 'pierce'];
+const horses = ['Geddy', 'Neil', 'Alex', 'Stang', 'Pierce'];
 
 app.set('view engine', 'ejs');
 

@@ -14,14 +14,6 @@ body{
 
 }
 
-.title{
-
-    font-size: 3rem;
-    text-align: center;
-    font-family: sans-serif;
-
-}
-
 .box{
 
     background-color: black;
@@ -33,5 +25,48 @@ body{
 .horse p{
 
     display: inline-block;
+
+}
+
+.stang{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: none;
+
+}
+
+.active > .stang{
+    display: block;
+}
+
+.buttonParent{
+
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-top: 5vh;
+
+}
+
+.buttonParent > a{
+
+    padding: 10px 20px;
+    color:aliceblue;
+    background-color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 20px;
+    border-radius: 4px;
+
+}
+
+.title{
+
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
 
 }

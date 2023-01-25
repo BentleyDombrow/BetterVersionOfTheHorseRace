@@ -17,13 +17,21 @@
 
         <% let counter = 0%>
         <% for(r=0; r<16; r++){ %>  
-            <div class="<%="horse" + horse + "box" + counter%> box"></div>
+            <div class="<%=horse%> box">
+                <img class="stang" src="./public/runningMustang.jpg" alt="Running Mustand">
+            </div>
             <%counter++%>
         <% }; %>
         <%horse++%>
     <% }; %>
     
  
+</div>
+
+<div class="buttonParent">
+    <a href="#" class="next">Next</a>
+    <a href="#" class="auto">Auto</a>
+    <a href="./">Reset</a>
 </div>
 
 <script type="text/javascript" src="./public/app.js"></script>
